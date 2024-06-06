@@ -18,3 +18,16 @@ console.log(sent); //Sathwik Sai Abhinav is aspiring for nice paying job with go
 //Autoboxing
 let city = "Hyderabad";
 console.log(city.charAt(2));//->d  Here, city is not treated as primitive datatype else as an object.
+
+let sentence = "I'm learning Javascript";
+console.log(sentence.length); //18
+console.log('abhi'.length); //4
+console.log(sentence.slice(4,12));//learning
+console.log('Hoisting'.slice(0,5));//Hoist
+console.log(sentence.split(' '));//["I'm","learning","Javascript"]
+console.log('192.168.1.1'.split('.'));//["192","168","1","1"]
+
+let var1;
+console.log(typeof var1);//undefined
+var1 = undefined;
+console.log(typeof var1);//undefined
