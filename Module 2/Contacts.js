@@ -1,0 +1,12 @@
+let name_1 = "Maxwell Wright";
+const phone_1 = "(0191) 719 6495";
+const email_1 = "Curabitor.egestas.nunc@nonummyac.co.uk";
+let name_2 = "Raja Villarreal";
+const phone_2 = "0866 398 2895";
+const email_2 = "posuere.vulputate@sed.com";
+let name_3 = "Helen Richards";
+const phone_3 = "0801111";
+const email_3 = "libero@convallis.edu";
+console.log(name_1+"/"+phone_1+"/"+email_1);
+console.log(name_2+"/"+phone_2+"/"+email_2);
+console.log(name_3+"/"+phone_3+"/"+email_3);
