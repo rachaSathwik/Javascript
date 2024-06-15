@@ -31,3 +31,7 @@ let var1;
 console.log(typeof var1);//undefined
 var1 = undefined;
 console.log(typeof var1);//undefined
+
+let frac = 10/100;
+console.log(typeof frac);//number
+console.log(0x21);
