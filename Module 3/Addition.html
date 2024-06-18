@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="num1">Number 1:</label>
+    <input id="num1" type="number"><br><br>
+    
+    <label for="num2">Number 2:</label>
+    <input id="num2" type="number"><br><br>
+    
+    <button onclick="calculateSum()">Addition</button>
+    
+    <h2 id="result">The Sum of num1 and num2 is: <span id="sum"></span></h2>
+
+    <script>
+        function calculateSum() {
+            // Get the values from the input fields
+            let num1 = parseFloat(document.getElementById('num1').value);
+            let num2 = parseFloat(document.getElementById('num2').value);
+            
+            // Perform addition
+            let add = num1 + num2;
+            
+            // Display the result
+            document.getElementById('sum').textContent = add;
+        }
+    </script>
+</body>
+</html>
