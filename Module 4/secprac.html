@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Volume</title>
+</head>
+<body>
+    <label for="l">Length</label>
+    <input id="l" type="number"></input></br>
+    <label for="b">Breadth</label>
+    <input id="b" type="number"></input></br>
+    <label for="h">Height</label>
+    <input id="h" type="number"></input><br/>
+    <button onclick="calculateVolume()">Volume</button>
+    <h1 id="res">Volume of the Box is: <span id="vol"></span></h1>
+    <script>
+         calculateVolume = () =>{
+            let length = parseFloat(document.getElementById('l').value);
+            let breadth = parseFloat(document.getElementById("b").value);
+            let height = parseFloat(document.getElementById("h").value);
+            let volume = length*breadth*height;
+            console.log(volume);
+            document.getElementById('vol').textContent=volume;
+        }
+    </script>
+</body>
+</html>
