@@ -5,10 +5,6 @@ let sm = showMessage;
 sm();//Hello World!
 showMessage();//Hello World!
 
-X
-
-anonymous('Hello');
-
 function addition(a,b){
     return a+b;
 }
