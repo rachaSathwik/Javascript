@@ -3,7 +3,8 @@ class ExtendedTutoring extends Tutoring{
     constructor(){
         super();
     }
-    sendMessages(from,to,message){
+    sendMessages(from,to = [],message){
+        if(from && to.length)//avoids empty to and undefined or null from
         for(let obj of to){
             from.sendMessage(obj,message);
         }
